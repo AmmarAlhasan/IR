@@ -1,0 +1,149 @@
+
+
+body {
+  font-size: 16px;
+  line-height: 1.2;
+  background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  color: var(--text-light-color);
+  background-color: var(--background-color);
+  font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
+}
+
+
+
+.index {
+  height: 100vh;
+  flex-wrap: nowrap;
+  flex-direction: column;
+}
+
+
+
+.index__logo {
+  height: 48px;
+  width: 300px;
+  background-size: contain;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-image: url("../img/search-engine.png");
+}
+
+@media (min-width:600px) {
+  .index__logo {
+    height: 62px;
+    width: 385px;
+  }
+}
+
+.index .index__nav {
+  margin: 1.5em auto 1.25em;
+}
+
+@media (min-width:600px) {
+  .index .index__nav {
+    margin: 1em auto 1.25em;
+  }
+}
+
+.index .index__search {
+  width: 100%;
+  max-width: 600px;
+}
+
+.index__nav {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  line-height: 1;
+  font-size: 16px;
+  list-style: none;
+  justify-content: space-around;
+  color: var(--text-light-color);
+}
+
+@media (min-width:500px) {
+  .index__nav {
+    justify-content: start;
+  }
+}
+
+
+
+
+.index__form {
+  background-color: var(--background-color);
+  border-radius: 2px;
+  border: 1px solid var(--border-color);
+  display: flex;
+}
+
+@media (min-width:800px) {
+  .index__form {
+    max-width: 680px;
+    width: 100%;
+  }
+}
+
+.index__form>div {
+  flex: 1;
+}
+
+.index__query {
+  background: transparent;
+  opacity: 1;
+  border: 0;
+  color: var(--text-color);
+  display: block;
+  font-size: 16px;
+  height: 38px;
+  line-height: 38px;
+  margin: 0;
+  outline: none;
+  padding: 5px 10px 5px 15px;
+  width: 100%;:
+  -webkit-appearance: none;
+}
+
+.index__button{
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg height='32' width='32' viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M31 28.64l-7.57-7.57a12.53 12.53 0 1 0-2.36 2.36l7.57 7.57zm-17.5-6a9.17 9.17 0 1 1 6.5-2.64 9.11 9.11 0 0 1-6.5 2.67z' fill='%234f5f8f'/%3E%3C/svg%3E");
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    cursor: pointer;
+    background-size: 35px 50px;  
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 60px;
+}
+
+
+:focus,
+:active {
+  outline: 0 none;
+}
+
+
+.the-question-text{
+    text-align: center;
+    border: 1px solid #DDD;
+    padding: 10px;
+    margin: 10px;
+    background-color: #EEE;
+    font-family: arial;
+}
+
+.label-class{
+        font-size: larger;
+    font-family: arial;
+    color: green;
+    text-align: center;
+}
+
+
+.btn-fill-trans{
+    padding:5px;
+    margin:50px
+}
